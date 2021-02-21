@@ -1,5 +1,6 @@
-import { ReactElement } from 'react'
+import React, { ReactElement } from 'react'
+import Layout from '../components/layout'
 
 export default function Home(): ReactElement {
-  return <div></div>
+  return <Layout title="Home">create</Layout>
 }
